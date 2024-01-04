@@ -1,0 +1,21 @@
+{
+    "name": "mlaxwong/paw-webcomponent",
+    "type": "paw-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mlaxwong",
+            "email": "mlaxwong@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "paw\\webcomponent\\": "src/"
+        }
+    },
+    "require": {
+        "mlaxwong/paw": "^1.1",
+        "mlaxwong/paw-bootstrap4": "^1.0",
+        "mlaxwong/paw-assets-ckeditor5": "^1.0"
+    }
+}
